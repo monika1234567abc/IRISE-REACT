@@ -2,15 +2,15 @@ import { useEffect,useState } from "react";
 
 function UseEffect(){
 
-    const [counter,setCounter]=useState(0)
+    const [counter,setCounter]=useState(0);
     function incrementCounter (){
 
-        setCounter((prevValue)=>prevValue + 1 )
+        setCounter((prevValue)=>prevValue + 1 );
 
     }
     useEffect(()=>{
 
-        console.log(" Hi from use effect hook")
+        console.log(" Hi from use effect hook");
 
     })
 

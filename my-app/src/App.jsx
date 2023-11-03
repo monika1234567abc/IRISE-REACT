@@ -2,8 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 import Home from'./Component/Home.jsx'
 import {Routes,Route} from 'react-router-dom';
+import UseEffect from './Component/useEffect';
 import UseState from './Component/UseState';
-import UseEffect from './Component/useEffectk';
+
 
 function App() {
   return (
