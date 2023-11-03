@@ -4,6 +4,7 @@ import Home from'./Component/Home.jsx'
 import {Routes,Route} from 'react-router-dom';
 import UseEffect from './Component/useEffect';
 import UseState from './Component/UseState';
+import UseEffectTwo from './Component/useEffectTwo.jsx';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Route path='/'element={<Home/>}/>
         <Route path='/use-state' element={<UseState />} />
         <Route path='/use-effect'element={<UseEffect/>}/>
+        <Route path='/use-effecttwo'element={<UseEffectTwo/>}/>
 </Routes>
  </div>
   );
